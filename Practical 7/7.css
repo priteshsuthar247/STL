@@ -1,0 +1,119 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-family: JetBrains Mono;
+    min-height: 100%;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+}
+body
+{
+    color: aliceblue;
+    background-attachment: fixed;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.logo {margin: 10px 3px;}
+.logo img
+{
+    margin: 3px 6px;
+    transition: .65s;
+}
+.logo img:hover {box-shadow: 0px 0px 20px aliceblue;}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 4px;
+}
+.navbar ul {display: flex;}
+.navbar li {list-style: none;}
+.navbar li a
+{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0px ;
+    color: aliceblue;
+    padding: 10px 25px;
+    transition: .65s;
+}
+.navbar li a:hover
+{
+    color: black;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 20px aliceblue;
+}
+.header
+{
+    text-transform: uppercase;
+    font-size: 133px;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+    background: #7F00FF;
+    background: -webkit-linear-gradient(to top, #E100FF, #7F00FF);
+    background: linear-gradient(to top, #E100FF, #7F00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title
+{
+    text-align: center;
+    font-size: 100px;
+    background: #DAD299;
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+    background: linear-gradient(to right, #B0DAB9, #DAD299);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box1
+{
+    display: flex;
+    padding: 6px;
+}
+.box1 img
+{
+    border-radius: 8px;
+    margin-left: auto;
+    height: 650px;
+}
+.box1 .c1 {margin: 204px 50px;}
+.box2
+{
+    display: flex;
+    padding: 6px;
+}
+.box2 img
+{
+    border-radius: 8px;
+    margin-right: auto;
+    height: 650px;
+}
+.box2 .c2 {margin: 204px 50px;}
+::-webkit-scrollbar {display: none;}
+.footer
+{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 4px;
+}

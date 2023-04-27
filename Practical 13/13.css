@@ -1,0 +1,19 @@
+body
+{
+    font-family: JetBrains Mono;
+    color: aliceblue;
+    background-color: #181818;
+    margin-top: 250px;
+}
+.main
+{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    height: 400px;
+    margin-left: 40%;
+    margin-right: 40%;
+}

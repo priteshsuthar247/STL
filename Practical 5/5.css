@@ -1,0 +1,19 @@
+body
+{
+    color: #838b8b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#first {text-align: left;}
+#second {text-align: right;}
+h2
+{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+span
+{
+    text-decoration: solid;
+    color: black;
+}
+.para2{text-align: right;}

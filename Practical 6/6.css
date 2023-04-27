@@ -1,0 +1,30 @@
+body { background-color: #161616;}
+img
+{
+    border-radius: 8px;
+    transition: 1.2s;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: 1.2s;
+}
+.container {
+    display:flex;
+    width: 640px;
+    height: 640px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box {
+    flex: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 1.5s;
+    margin: 2%;
+    line-height: 0;
+  }
+  .box:hover { flex: 50%; }
+  .box:hover img
+  {
+    transition: 1.2s;
+    -webkit-filter: grayscale(0);
+  }
